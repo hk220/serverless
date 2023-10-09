@@ -109,7 +109,7 @@ functions:
   index:
     handler: handler.hello
     events:
-      - http: GET hello
+      - http: GET /hello
 ```
 
 ```javascript
